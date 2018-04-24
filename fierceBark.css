@@ -1,0 +1,163 @@
+#topBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+
+#main {
+	background-color: #E9EBEE;
+	display: flex;
+}
+
+
+
+#headerLogo {
+	display: flex;
+	align-items: center;
+	margin-left: 8px;
+}
+
+#logo {
+	height: 35px;
+}
+
+#search {
+	height: 25px;
+}
+
+
+#topBarButtons {
+	display: flex;
+	justify-content: space-between;
+}
+#topBar input {
+	height: 28px;
+}
+
+.userPic {
+	display: flex;
+	align-items: center;
+}
+
+.userPic img {
+	height: 25px;
+	border-radius: 50%;
+
+}
+
+#topBarIcons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#topBarIcons img {
+	height: 25px;
+}
+
+.item {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#sideBar {
+	width:15%;
+	border: .5px solid black;
+}
+
+.sideItem {
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.sideItem img {
+	height: 18px;
+}
+
+#feed {
+	width: 100%;
+}
+
+#post {
+	margin-left: 225px;
+	margin-top: 39px;
+	
+}
+
+#post input {
+	width: 80%;
+	height: 100px;
+	text-align: top;
+}
+
+#postPic {
+	height: 25px;
+}
+
+#postHeader {
+	display: flex;
+	align-items: bottom;
+}
+
+.postButton {
+	border-radius: 12px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#topDogs {
+float: right;
+border: .5px solid black;
+width: 15%;
+display: block;
+overflow: auto;
+
+}
+
+.topDog {
+	display: flex;
+	align-items: center;
+
+}
+
+.topDog img {
+	height: 25px;
+	width: 45px;
+	margin-right: 5px;
+	border-radius: 12px;
+}
+
+.feedHeader {
+	display: flex;
+	align-items: center;
+}
+
+.feedHeaderText {
+	margin-left: 10px;
+}
+
+.feedItem {
+	margin-left: 225px;
+	margin-top: 39px;
+	border: 1px solid blue;
+	width: 55%;
+	text-align: center;
+
+}
+
+.feedItem img {
+	height: 30px;
+}
+
+.feedContentPic {
+	display: flex;
+	justify-content: center;
+}
+
+.feedContentPic img {
+	height: 60px;
+
+}
